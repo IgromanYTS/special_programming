@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import datetime
 
 #Повторюємо операцію формування Датафрейму з лаб2
-directory_name = "node"
+directory_name = "Lab3/node"
 
 dicti = {
     1 : 24,
@@ -114,7 +114,7 @@ class StockExample(server.App):
     "value" : 2000,
     "min" : 1982,
     "max" : 2024,
-    "action_id" : "refresh",
+    "action_id" : "update_data",
     "linked_key": 'title',
     "linked_type": 'text',
 }, 
@@ -125,7 +125,7 @@ class StockExample(server.App):
     "value" : 2010,
     "min" : 1982,
     "max" : 2024,
-    "action_id" : "refresh",
+    "action_id" : "update_data",
     "linked_key": 'title',
     "linked_type": 'text',
 }, dict( type="text",
